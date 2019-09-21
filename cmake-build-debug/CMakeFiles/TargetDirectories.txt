@@ -1,0 +1,3 @@
+/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles/game.dir
+/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles/edit_cache.dir

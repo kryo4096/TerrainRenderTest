@@ -1,0 +1,55 @@
+[
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/InputManager.cpp.o -c /home/jonas/code/c++/game/src/InputManager.cpp",
+  "file": "/home/jonas/code/c++/game/src/InputManager.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/Main.cpp.o -c /home/jonas/code/c++/game/src/Main.cpp",
+  "file": "/home/jonas/code/c++/game/src/Main.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/Mesh.cpp.o -c /home/jonas/code/c++/game/src/Mesh.cpp",
+  "file": "/home/jonas/code/c++/game/src/Mesh.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/MeshBuilder.cpp.o -c /home/jonas/code/c++/game/src/MeshBuilder.cpp",
+  "file": "/home/jonas/code/c++/game/src/MeshBuilder.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/Shader.cpp.o -c /home/jonas/code/c++/game/src/Shader.cpp",
+  "file": "/home/jonas/code/c++/game/src/Shader.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/TerrainGenerator.cpp.o -c /home/jonas/code/c++/game/src/TerrainGenerator.cpp",
+  "file": "/home/jonas/code/c++/game/src/TerrainGenerator.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/Transform.cpp.o -c /home/jonas/code/c++/game/src/Transform.cpp",
+  "file": "/home/jonas/code/c++/game/src/Transform.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/Vertex.cpp.o -c /home/jonas/code/c++/game/src/Vertex.cpp",
+  "file": "/home/jonas/code/c++/game/src/Vertex.cpp"
+},
+
+{
+  "directory": "/home/jonas/code/c++/game/build",
+  "command": "/bin/g++  -DGLFW_DLL -I../bin/glfw/include -I../src -I/usr/lib/libGL.so  -g   -o CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o -c /home/jonas/code/c++/game/src/simplex/SimplexNoise.cpp",
+  "file": "/home/jonas/code/c++/game/src/simplex/SimplexNoise.cpp"
+}
+]

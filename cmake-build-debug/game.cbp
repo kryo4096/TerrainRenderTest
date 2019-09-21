@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\;CMake Files\..\..\..\..\..\usr\lib64\cmake\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jonas/code/c++/game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jonas/code/c++/game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="/home/jonas/code/c++/game/bin/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jonas/code/c++/game/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/jonas/code/c++/game/bin/glfw/include"/>
+					<Add directory="/home/jonas/code/c++/game/src"/>
+					<Add directory="/usr/lib/libGL.so"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="/home/jonas/code/c++/game/bin/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jonas/code/c++/game/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/jonas/code/c++/game/bin/glfw/include"/>
+					<Add directory="/home/jonas/code/c++/game/src"/>
+					<Add directory="/usr/lib/libGL.so"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jonas/code/c++/game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jonas/code/c++/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jonas/code/c++/game/src/InputManager.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/InputManager.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Main.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Mesh.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Mesh.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/MeshBuilder.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/MeshBuilder.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Shader.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Shader.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/TerrainGenerator.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/TerrainGenerator.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Transform.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Transform.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Vertex.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Vertex.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/simplex/SimplexNoise.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/simplex/SimplexNoise.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/../../../../../usr/lib64/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/../../../../../usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/../../../../../usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/../../../../../usr/lib64/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/../../../../../usr/lib64/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/../../../../../usr/lib64/cmake/glm/glmConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/../../../../../usr/lib64/cmake/glm/glmTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
