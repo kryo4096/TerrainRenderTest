@@ -6,16 +6,7 @@
 
 using namespace std;
 
-string loadShaderFile(const GLchar* path) {
-    ifstream file;
 
-    file.exceptions(ifstream::failbit | ifstream::badbit);
-
-    file.open(path);
-    stringstream stream;
-    stream << file.rdbuf();
-    return stream.str();
-}
 
 GLuint createProgram(vector<GLuint> shaders) {
     auto program = glCreateProgram();
@@ -43,7 +34,7 @@ GLuint createProgram(vector<GLuint> shaders) {
     return program;
 }
 
-GLuint compileShader(const string shaderSource, GLenum shaderType) {
+GLuint compileShader(const string& shaderSource, GLenum shaderType) {
     GLuint shader = glCreateShader(shaderType);
 
     auto shaderCstr = shaderSource.c_str();
@@ -70,41 +61,18 @@ GLuint compileShader(const string shaderSource, GLenum shaderType) {
     return shader;
 }
 
-Shader::Shader(const GLchar* vertexPath, const GLchar* fragmentPath) {
 
-    string vertexSource, fragmentSource;
-
-    try {
-        vertexSource = loadShaderFile(vertexPath);
-        fragmentSource = loadShaderFile(fragmentPath);
-    }
-    catch(std::ifstream::failure e) {
-        std::cout << "Failed reading shader file." << std::endl;
-    }
-
-    auto vertexShader = compileShader(vertexSource, GL_VERTEX_SHADER);
-    auto fragmentShader = compileShader(fragmentSource, GL_FRAGMENT_SHADER);
-
-    this->program = createProgram({vertexShader, fragmentShader});
-}
-
-Shader::Shader(const GLchar* vertexPath, const GLchar* fragmentPath, const GLchar* geometryPath) {
-    string vertexSource, fragmentSource, geometrySource;
-
-    try {
-        vertexSource = loadShaderFile(vertexPath);
-        fragmentSource = loadShaderFile(fragmentPath);
-        geometrySource = loadShaderFile(geometryPath);
-    }
-    catch(std::ifstream::failure e) {
-        std::cout << "Failed reading shader file." << std::endl;
-    }
-
+Shader::Shader(const string& vertexSource, const string& fragmentSource, const string& geometrySource) {
     auto vertexShader = compileShader(vertexSource, GL_VERTEX_SHADER);
     auto fragmentShader = compileShader(fragmentSource, GL_FRAGMENT_SHADER);
     auto geometryShader = compileShader(geometrySource, GL_GEOMETRY_SHADER);
+    program = createProgram({vertexShader, geometryShader, fragmentShader});
+}
 
-    this->program = createProgram({vertexShader, geometryShader, fragmentShader});
+Shader::Shader(const string& vertexSource, const string& fragmentSource) {
+    auto vertexShader = compileShader(vertexSource, GL_VERTEX_SHADER);
+    auto fragmentShader = compileShader(fragmentSource, GL_FRAGMENT_SHADER);
+    program = createProgram({vertexShader, fragmentShader});
 }
     
 void Shader::use() {
@@ -125,5 +93,9 @@ void Shader::setMat4(const std::string &name, glm::mat4 matrix){
 
 void Shader::setFloat(const std::string &name, float value) const {
     glUniform1f(glGetUniformLocation(program, name.c_str()), value);
+}
+
+void Shader::setVec3(const std::string &name, glm::vec3 vector) {
+    glUniform3fv(glGetUniformLocation(program, name.c_str()), 1, glm::value_ptr(vector));
 }
 

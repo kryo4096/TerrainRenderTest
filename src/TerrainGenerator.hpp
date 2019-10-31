@@ -4,14 +4,23 @@
 #include "simplex/SimplexNoise.h"
 #include "glm/glm.hpp"
 #include "Mesh.hpp"
+#include "IHeightProvider.hpp"
+#include "IChunkGenerator.hpp"
 
-class TerrainGenerator {
-    SimplexNoise mNoise;
-    int mChunkSize;
-    glm::vec3 mScale;
+#include <memory>
+
+class TerrainGenerator : public IChunkGenerator {
+    IHeightProvider& heightProvider;
+    int chunkSize;
+    glm::vec3 scale;
+    float worldHeight;
 public:
-    TerrainGenerator(SimplexNoise noise, int chunkSize, glm::vec3 scale);
-    Mesh generateChunk(int x, int y);
+    TerrainGenerator(IHeightProvider& heightProvider, int chunkSize, glm::vec3 scale);
+    Mesh generateChunk(int x, int y, unsigned int resolution) override;
+
+    int getChunkSize() override;
+
+    float getWorldHeight() const;
 };
 
 #endif

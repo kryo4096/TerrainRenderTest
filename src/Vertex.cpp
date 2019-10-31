@@ -1,7 +1,4 @@
 #include "Vertex.hpp"
 
-Vertex::Vertex(glm::vec3 _position, glm::vec3 _color, glm::vec3 _normal) {
-    this->position = _position;
-    this->color = _color;
-    this->normal = _normal;
-}
+Vertex::Vertex(const glm::vec3 &position, const glm::vec3 &color, const glm::vec3 &normal, const glm::vec2 &uv)
+        : position(position), color(color), normal(normal), uv(uv) {}

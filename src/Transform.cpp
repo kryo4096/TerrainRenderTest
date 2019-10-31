@@ -41,7 +41,7 @@ void Transform::translate(glm::vec3 delta) {
 void Transform::translateLocal(glm::vec3 delta) {
     dirty = true;
 
-    position += (matrix() * vec4(delta, 1)).xyz();
+    position += (matrix() * vec4(delta, 0)).xyz();
 }
 
 void Transform::rotate(glm::quat _rotation) {

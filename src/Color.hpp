@@ -12,4 +12,6 @@
 #define BLACK vec3(0.0f, 0.0f, 0.0f)
 #define WHITE vec3(1.0f, 1.0f, 1.0f)
 
+#define RGB(r,g,b) glm::vec3(r/256.0f, g / 256.0f, b/256.0f)
+
 #endif

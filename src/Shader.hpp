@@ -13,9 +13,8 @@
 class Shader {
     GLuint program;
 public:
-
-    Shader(const GLchar* vertexPath, const GLchar* fragmentPath);
-    Shader(const GLchar* vertexPath, const GLchar* fragmentPath, const GLchar* geometryPath);
+    Shader(const std::string &vertexSource, const std::string &fragmentSource, const std::string &geometrySource);
+    Shader(const std::string &vertexSource, const std::string &fragmentSource);
         
     void use();
 
@@ -24,6 +23,8 @@ public:
     void setInt(const std::string &name, int value) const;
 
     void setMat4(const std::string &name, glm::mat4 matrix);
+
+    void setVec3(const std::string &name, glm::vec3 vector);
     
     void setFloat(const std::string &name, float value) const;
 };
