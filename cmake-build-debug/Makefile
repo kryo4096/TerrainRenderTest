@@ -123,6 +123,87 @@ game/fast:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
+src/ChunkManager.o: src/ChunkManager.cpp.o
+
+.PHONY : src/ChunkManager.o
+
+# target to build an object file
+src/ChunkManager.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ChunkManager.cpp.o
+.PHONY : src/ChunkManager.cpp.o
+
+src/ChunkManager.i: src/ChunkManager.cpp.i
+
+.PHONY : src/ChunkManager.i
+
+# target to preprocess a source file
+src/ChunkManager.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ChunkManager.cpp.i
+.PHONY : src/ChunkManager.cpp.i
+
+src/ChunkManager.s: src/ChunkManager.cpp.s
+
+.PHONY : src/ChunkManager.s
+
+# target to generate assembly for a file
+src/ChunkManager.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ChunkManager.cpp.s
+.PHONY : src/ChunkManager.cpp.s
+
+src/ExponentialHeightProvider.o: src/ExponentialHeightProvider.cpp.o
+
+.PHONY : src/ExponentialHeightProvider.o
+
+# target to build an object file
+src/ExponentialHeightProvider.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o
+.PHONY : src/ExponentialHeightProvider.cpp.o
+
+src/ExponentialHeightProvider.i: src/ExponentialHeightProvider.cpp.i
+
+.PHONY : src/ExponentialHeightProvider.i
+
+# target to preprocess a source file
+src/ExponentialHeightProvider.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.i
+.PHONY : src/ExponentialHeightProvider.cpp.i
+
+src/ExponentialHeightProvider.s: src/ExponentialHeightProvider.cpp.s
+
+.PHONY : src/ExponentialHeightProvider.s
+
+# target to generate assembly for a file
+src/ExponentialHeightProvider.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.s
+.PHONY : src/ExponentialHeightProvider.cpp.s
+
+src/Image.o: src/Image.cpp.o
+
+.PHONY : src/Image.o
+
+# target to build an object file
+src/Image.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Image.cpp.o
+.PHONY : src/Image.cpp.o
+
+src/Image.i: src/Image.cpp.i
+
+.PHONY : src/Image.i
+
+# target to preprocess a source file
+src/Image.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Image.cpp.i
+.PHONY : src/Image.cpp.i
+
+src/Image.s: src/Image.cpp.s
+
+.PHONY : src/Image.s
+
+# target to generate assembly for a file
+src/Image.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Image.cpp.s
+.PHONY : src/Image.cpp.s
+
 src/InputManager.o: src/InputManager.cpp.o
 
 .PHONY : src/InputManager.o
@@ -149,6 +230,33 @@ src/InputManager.s: src/InputManager.cpp.s
 src/InputManager.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/InputManager.cpp.s
 .PHONY : src/InputManager.cpp.s
+
+src/LogisticHeightProvider.o: src/LogisticHeightProvider.cpp.o
+
+.PHONY : src/LogisticHeightProvider.o
+
+# target to build an object file
+src/LogisticHeightProvider.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o
+.PHONY : src/LogisticHeightProvider.cpp.o
+
+src/LogisticHeightProvider.i: src/LogisticHeightProvider.cpp.i
+
+.PHONY : src/LogisticHeightProvider.i
+
+# target to preprocess a source file
+src/LogisticHeightProvider.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.i
+.PHONY : src/LogisticHeightProvider.cpp.i
+
+src/LogisticHeightProvider.s: src/LogisticHeightProvider.cpp.s
+
+.PHONY : src/LogisticHeightProvider.s
+
+# target to generate assembly for a file
+src/LogisticHeightProvider.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.s
+.PHONY : src/LogisticHeightProvider.cpp.s
 
 src/Main.o: src/Main.cpp.o
 
@@ -231,6 +339,33 @@ src/MeshBuilder.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/MeshBuilder.cpp.s
 .PHONY : src/MeshBuilder.cpp.s
 
+src/ResourceLoader.o: src/ResourceLoader.cpp.o
+
+.PHONY : src/ResourceLoader.o
+
+# target to build an object file
+src/ResourceLoader.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ResourceLoader.cpp.o
+.PHONY : src/ResourceLoader.cpp.o
+
+src/ResourceLoader.i: src/ResourceLoader.cpp.i
+
+.PHONY : src/ResourceLoader.i
+
+# target to preprocess a source file
+src/ResourceLoader.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ResourceLoader.cpp.i
+.PHONY : src/ResourceLoader.cpp.i
+
+src/ResourceLoader.s: src/ResourceLoader.cpp.s
+
+.PHONY : src/ResourceLoader.s
+
+# target to generate assembly for a file
+src/ResourceLoader.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/ResourceLoader.cpp.s
+.PHONY : src/ResourceLoader.cpp.s
+
 src/Shader.o: src/Shader.cpp.o
 
 .PHONY : src/Shader.o
@@ -284,6 +419,33 @@ src/TerrainGenerator.s: src/TerrainGenerator.cpp.s
 src/TerrainGenerator.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/TerrainGenerator.cpp.s
 .PHONY : src/TerrainGenerator.cpp.s
+
+src/TestClass.o: src/TestClass.cpp.o
+
+.PHONY : src/TestClass.o
+
+# target to build an object file
+src/TestClass.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/TestClass.cpp.o
+.PHONY : src/TestClass.cpp.o
+
+src/TestClass.i: src/TestClass.cpp.i
+
+.PHONY : src/TestClass.i
+
+# target to preprocess a source file
+src/TestClass.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/TestClass.cpp.i
+.PHONY : src/TestClass.cpp.i
+
+src/TestClass.s: src/TestClass.cpp.s
+
+.PHONY : src/TestClass.s
+
+# target to generate assembly for a file
+src/TestClass.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/TestClass.cpp.s
+.PHONY : src/TestClass.cpp.s
 
 src/Transform.o: src/Transform.cpp.o
 
@@ -375,9 +537,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... game"
 	@echo "... edit_cache"
+	@echo "... src/ChunkManager.o"
+	@echo "... src/ChunkManager.i"
+	@echo "... src/ChunkManager.s"
+	@echo "... src/ExponentialHeightProvider.o"
+	@echo "... src/ExponentialHeightProvider.i"
+	@echo "... src/ExponentialHeightProvider.s"
+	@echo "... src/Image.o"
+	@echo "... src/Image.i"
+	@echo "... src/Image.s"
 	@echo "... src/InputManager.o"
 	@echo "... src/InputManager.i"
 	@echo "... src/InputManager.s"
+	@echo "... src/LogisticHeightProvider.o"
+	@echo "... src/LogisticHeightProvider.i"
+	@echo "... src/LogisticHeightProvider.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
@@ -387,12 +561,18 @@ help:
 	@echo "... src/MeshBuilder.o"
 	@echo "... src/MeshBuilder.i"
 	@echo "... src/MeshBuilder.s"
+	@echo "... src/ResourceLoader.o"
+	@echo "... src/ResourceLoader.i"
+	@echo "... src/ResourceLoader.s"
 	@echo "... src/Shader.o"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"
 	@echo "... src/TerrainGenerator.o"
 	@echo "... src/TerrainGenerator.i"
 	@echo "... src/TerrainGenerator.s"
+	@echo "... src/TestClass.o"
+	@echo "... src/TestClass.i"
+	@echo "... src/TestClass.s"
 	@echo "... src/Transform.o"
 	@echo "... src/Transform.i"
 	@echo "... src/Transform.s"

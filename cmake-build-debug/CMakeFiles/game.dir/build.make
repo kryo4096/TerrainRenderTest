@@ -57,9 +57,48 @@ include CMakeFiles/game.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/game.dir/flags.make
 
+CMakeFiles/game.dir/src/ChunkManager.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/ChunkManager.cpp.o: ../src/ChunkManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/ChunkManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/ChunkManager.cpp.o -c /home/jonas/code/c++/game/src/ChunkManager.cpp
+
+CMakeFiles/game.dir/src/ChunkManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/ChunkManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/code/c++/game/src/ChunkManager.cpp > CMakeFiles/game.dir/src/ChunkManager.cpp.i
+
+CMakeFiles/game.dir/src/ChunkManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/ChunkManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/ChunkManager.cpp -o CMakeFiles/game.dir/src/ChunkManager.cpp.s
+
+CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o: ../src/ExponentialHeightProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o -c /home/jonas/code/c++/game/src/ExponentialHeightProvider.cpp
+
+CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/code/c++/game/src/ExponentialHeightProvider.cpp > CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.i
+
+CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/ExponentialHeightProvider.cpp -o CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.s
+
+CMakeFiles/game.dir/src/Image.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Image.cpp.o: ../src/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/Image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Image.cpp.o -c /home/jonas/code/c++/game/src/Image.cpp
+
+CMakeFiles/game.dir/src/Image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Image.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/code/c++/game/src/Image.cpp > CMakeFiles/game.dir/src/Image.cpp.i
+
+CMakeFiles/game.dir/src/Image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Image.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/Image.cpp -o CMakeFiles/game.dir/src/Image.cpp.s
+
 CMakeFiles/game.dir/src/InputManager.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/InputManager.cpp.o: ../src/InputManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/InputManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/InputManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/InputManager.cpp.o -c /home/jonas/code/c++/game/src/InputManager.cpp
 
 CMakeFiles/game.dir/src/InputManager.cpp.i: cmake_force
@@ -70,9 +109,22 @@ CMakeFiles/game.dir/src/InputManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/InputManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/InputManager.cpp -o CMakeFiles/game.dir/src/InputManager.cpp.s
 
+CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o: ../src/LogisticHeightProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o -c /home/jonas/code/c++/game/src/LogisticHeightProvider.cpp
+
+CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/code/c++/game/src/LogisticHeightProvider.cpp > CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.i
+
+CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/LogisticHeightProvider.cpp -o CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.s
+
 CMakeFiles/game.dir/src/Main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Main.cpp.o: ../src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/Main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Main.cpp.o -c /home/jonas/code/c++/game/src/Main.cpp
 
 CMakeFiles/game.dir/src/Main.cpp.i: cmake_force
@@ -85,7 +137,7 @@ CMakeFiles/game.dir/src/Main.cpp.s: cmake_force
 
 CMakeFiles/game.dir/src/Mesh.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Mesh.cpp.o: ../src/Mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/Mesh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/Mesh.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Mesh.cpp.o -c /home/jonas/code/c++/game/src/Mesh.cpp
 
 CMakeFiles/game.dir/src/Mesh.cpp.i: cmake_force
@@ -98,7 +150,7 @@ CMakeFiles/game.dir/src/Mesh.cpp.s: cmake_force
 
 CMakeFiles/game.dir/src/MeshBuilder.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/MeshBuilder.cpp.o: ../src/MeshBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/MeshBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/MeshBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/MeshBuilder.cpp.o -c /home/jonas/code/c++/game/src/MeshBuilder.cpp
 
 CMakeFiles/game.dir/src/MeshBuilder.cpp.i: cmake_force
@@ -109,9 +161,22 @@ CMakeFiles/game.dir/src/MeshBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/MeshBuilder.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/MeshBuilder.cpp -o CMakeFiles/game.dir/src/MeshBuilder.cpp.s
 
+CMakeFiles/game.dir/src/ResourceLoader.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/ResourceLoader.cpp.o: ../src/ResourceLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.dir/src/ResourceLoader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/ResourceLoader.cpp.o -c /home/jonas/code/c++/game/src/ResourceLoader.cpp
+
+CMakeFiles/game.dir/src/ResourceLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/ResourceLoader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/code/c++/game/src/ResourceLoader.cpp > CMakeFiles/game.dir/src/ResourceLoader.cpp.i
+
+CMakeFiles/game.dir/src/ResourceLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/ResourceLoader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/ResourceLoader.cpp -o CMakeFiles/game.dir/src/ResourceLoader.cpp.s
+
 CMakeFiles/game.dir/src/Shader.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Shader.cpp.o: ../src/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.dir/src/Shader.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Shader.cpp.o -c /home/jonas/code/c++/game/src/Shader.cpp
 
 CMakeFiles/game.dir/src/Shader.cpp.i: cmake_force
@@ -124,7 +189,7 @@ CMakeFiles/game.dir/src/Shader.cpp.s: cmake_force
 
 CMakeFiles/game.dir/src/TerrainGenerator.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/TerrainGenerator.cpp.o: ../src/TerrainGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/TerrainGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.dir/src/TerrainGenerator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/TerrainGenerator.cpp.o -c /home/jonas/code/c++/game/src/TerrainGenerator.cpp
 
 CMakeFiles/game.dir/src/TerrainGenerator.cpp.i: cmake_force
@@ -135,9 +200,22 @@ CMakeFiles/game.dir/src/TerrainGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/TerrainGenerator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/TerrainGenerator.cpp -o CMakeFiles/game.dir/src/TerrainGenerator.cpp.s
 
+CMakeFiles/game.dir/src/TestClass.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/TestClass.cpp.o: ../src/TestClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.dir/src/TestClass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/TestClass.cpp.o -c /home/jonas/code/c++/game/src/TestClass.cpp
+
+CMakeFiles/game.dir/src/TestClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/TestClass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/code/c++/game/src/TestClass.cpp > CMakeFiles/game.dir/src/TestClass.cpp.i
+
+CMakeFiles/game.dir/src/TestClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/TestClass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/code/c++/game/src/TestClass.cpp -o CMakeFiles/game.dir/src/TestClass.cpp.s
+
 CMakeFiles/game.dir/src/Transform.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Transform.cpp.o: ../src/Transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/Transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/Transform.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Transform.cpp.o -c /home/jonas/code/c++/game/src/Transform.cpp
 
 CMakeFiles/game.dir/src/Transform.cpp.i: cmake_force
@@ -150,7 +228,7 @@ CMakeFiles/game.dir/src/Transform.cpp.s: cmake_force
 
 CMakeFiles/game.dir/src/Vertex.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Vertex.cpp.o: ../src/Vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/Vertex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.dir/src/Vertex.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/Vertex.cpp.o -c /home/jonas/code/c++/game/src/Vertex.cpp
 
 CMakeFiles/game.dir/src/Vertex.cpp.i: cmake_force
@@ -163,7 +241,7 @@ CMakeFiles/game.dir/src/Vertex.cpp.s: cmake_force
 
 CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o: ../src/simplex/SimplexNoise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o -c /home/jonas/code/c++/game/src/simplex/SimplexNoise.cpp
 
 CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.i: cmake_force
@@ -176,12 +254,18 @@ CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.s: cmake_force
 
 # Object files for target game
 game_OBJECTS = \
+"CMakeFiles/game.dir/src/ChunkManager.cpp.o" \
+"CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o" \
+"CMakeFiles/game.dir/src/Image.cpp.o" \
 "CMakeFiles/game.dir/src/InputManager.cpp.o" \
+"CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o" \
 "CMakeFiles/game.dir/src/Main.cpp.o" \
 "CMakeFiles/game.dir/src/Mesh.cpp.o" \
 "CMakeFiles/game.dir/src/MeshBuilder.cpp.o" \
+"CMakeFiles/game.dir/src/ResourceLoader.cpp.o" \
 "CMakeFiles/game.dir/src/Shader.cpp.o" \
 "CMakeFiles/game.dir/src/TerrainGenerator.cpp.o" \
+"CMakeFiles/game.dir/src/TestClass.cpp.o" \
 "CMakeFiles/game.dir/src/Transform.cpp.o" \
 "CMakeFiles/game.dir/src/Vertex.cpp.o" \
 "CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o"
@@ -189,12 +273,18 @@ game_OBJECTS = \
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
+../bin/game: CMakeFiles/game.dir/src/ChunkManager.cpp.o
+../bin/game: CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o
+../bin/game: CMakeFiles/game.dir/src/Image.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/InputManager.cpp.o
+../bin/game: CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/Main.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/Mesh.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/MeshBuilder.cpp.o
+../bin/game: CMakeFiles/game.dir/src/ResourceLoader.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/Shader.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/TerrainGenerator.cpp.o
+../bin/game: CMakeFiles/game.dir/src/TestClass.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/Transform.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/Vertex.cpp.o
 ../bin/game: CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o
@@ -203,7 +293,7 @@ game_EXTERNAL_OBJECTS =
 ../bin/game: /usr/lib/libGL.so
 ../bin/game: /usr/lib/libGLU.so
 ../bin/game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../bin/game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonas/code/c++/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ../bin/game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

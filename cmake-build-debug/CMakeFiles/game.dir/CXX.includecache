@@ -6,13 +6,55 @@
 
 #IncludeRegexTransform: 
 
+/home/jonas/code/c++/game/src/ChunkManager.hpp
+vector
+-
+glm/glm.hpp
+-
+memory
+-
+Mesh.hpp
+/home/jonas/code/c++/game/src/Mesh.hpp
+IChunkGenerator.hpp
+/home/jonas/code/c++/game/src/IChunkGenerator.hpp
+
 /home/jonas/code/c++/game/src/Color.hpp
+
+/home/jonas/code/c++/game/src/ExponentialHeightProvider.hpp
+IHeightProvider.hpp
+/home/jonas/code/c++/game/src/IHeightProvider.hpp
+simplex/SimplexNoise.h
+/home/jonas/code/c++/game/src/simplex/SimplexNoise.h
+
+/home/jonas/code/c++/game/src/IChunkGenerator.hpp
+Mesh.hpp
+/home/jonas/code/c++/game/src/Mesh.hpp
+MeshBuilder.hpp
+/home/jonas/code/c++/game/src/MeshBuilder.hpp
+
+/home/jonas/code/c++/game/src/IHeightProvider.hpp
+
+/home/jonas/code/c++/game/src/Image.hpp
+vector
+-
+cstdint
+-
+glm/glm.hpp
+-
 
 /home/jonas/code/c++/game/src/InputManager.hpp
 GLFW/glfw3.h
 -
+glm/glm.hpp
+-
 map
 -
+
+/home/jonas/code/c++/game/src/LogisticHeightProvider.hpp
+simplex/SimplexNoise.h
+-
+IHeightProvider.hpp
+/home/jonas/code/c++/game/src/IHeightProvider.hpp
 
 /home/jonas/code/c++/game/src/Main.cpp
 iostream
@@ -49,6 +91,14 @@ TerrainGenerator.hpp
 /home/jonas/code/c++/game/src/TerrainGenerator.hpp
 simplex/SimplexNoise.h
 /home/jonas/code/c++/game/src/simplex/SimplexNoise.h
+ExponentialHeightProvider.hpp
+/home/jonas/code/c++/game/src/ExponentialHeightProvider.hpp
+LogisticHeightProvider.hpp
+/home/jonas/code/c++/game/src/LogisticHeightProvider.hpp
+ResourceLoader.hpp
+/home/jonas/code/c++/game/src/ResourceLoader.hpp
+ChunkManager.hpp
+/home/jonas/code/c++/game/src/ChunkManager.hpp
 glm/gtx/string_cast.hpp
 -
 
@@ -67,6 +117,16 @@ Mesh.hpp
 /home/jonas/code/c++/game/src/Mesh.hpp
 vector
 -
+
+/home/jonas/code/c++/game/src/ResourceLoader.hpp
+string
+-
+map
+-
+Image.hpp
+/home/jonas/code/c++/game/src/Image.hpp
+Shader.hpp
+/home/jonas/code/c++/game/src/Shader.hpp
 
 /home/jonas/code/c++/game/src/Shader.hpp
 GL/glew.h
@@ -89,6 +149,14 @@ glm/glm.hpp
 /home/jonas/code/c++/game/src/glm/glm.hpp
 Mesh.hpp
 /home/jonas/code/c++/game/src/Mesh.hpp
+IHeightProvider.hpp
+/home/jonas/code/c++/game/src/IHeightProvider.hpp
+IChunkGenerator.hpp
+/home/jonas/code/c++/game/src/IChunkGenerator.hpp
+MeshBuilder.hpp
+/home/jonas/code/c++/game/src/MeshBuilder.hpp
+memory
+-
 
 /home/jonas/code/c++/game/src/Transform.hpp
 GL/glew.h

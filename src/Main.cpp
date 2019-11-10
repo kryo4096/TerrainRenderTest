@@ -94,20 +94,10 @@ public:
 
         camera.setPosition(vec3(0, 10, 0));
 
-        SimplexNoise noise(0.003, 1.0, 4.0, 0.25);
-        LogisticHeightProvider heightProvider(noise, 2, 0, 1);
-        TerrainGenerator terrainGen(heightProvider, 64, vec3(1, 100, 1));
-        //ChunkManager manager(terrainGen, 10);
-
-        vector<Mesh *> chunks;
-
-        const int WORLD_SIZE = 16;
-
-        for (int x = -WORLD_SIZE / 2; x <= WORLD_SIZE / 2; x++) {
-            for (int z = -WORLD_SIZE / 2; z <= WORLD_SIZE / 2; z++) {
-                chunks.push_back(new Mesh(terrainGen.generateChunk(x, z,  2 + (x + z) / 20)));
-            }
-        }
+        SimplexNoise noise(0.005, 1.0, 4.0, 0.25);
+        ExponentialHeightProvider heightProvider(noise, 1.2, 50.0, 1.0);
+        TerrainGenerator terrainGen(heightProvider, 32, vec3(1, 1, 1));
+        ChunkManager manager(terrainGen, 12);
 
         float lookX = 0;
         float lookY = 1;
@@ -140,7 +130,7 @@ public:
             glm::mat4 projectionMatrix = glm::perspective(radians(60.0f), (float) g_width / (float) g_height, 0.1f,
                                                           10000.0f);
 
-            glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+            glClearColor(0.0f, 0.2f, 1.0f, 1.0f);
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
             shader.setFloat("realTime", glfwGetTime());

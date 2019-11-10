@@ -90,10 +90,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jonas/code/c++/game/src/ChunkManager.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/ChunkManager.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/ExponentialHeightProvider.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/ExponentialHeightProvider.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Image.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/Image.hpp">
+			<Option target="game"/>
+		</Unit>
 		<Unit filename="/home/jonas/code/c++/game/src/InputManager.cpp">
 			<Option target="game"/>
 		</Unit>
 		<Unit filename="/home/jonas/code/c++/game/src/InputManager.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/LogisticHeightProvider.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/LogisticHeightProvider.hpp">
 			<Option target="game"/>
 		</Unit>
 		<Unit filename="/home/jonas/code/c++/game/src/Main.cpp">
@@ -111,6 +135,12 @@
 		<Unit filename="/home/jonas/code/c++/game/src/MeshBuilder.hpp">
 			<Option target="game"/>
 		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/ResourceLoader.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/ResourceLoader.hpp">
+			<Option target="game"/>
+		</Unit>
 		<Unit filename="/home/jonas/code/c++/game/src/Shader.cpp">
 			<Option target="game"/>
 		</Unit>
@@ -121,6 +151,12 @@
 			<Option target="game"/>
 		</Unit>
 		<Unit filename="/home/jonas/code/c++/game/src/TerrainGenerator.hpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/TestClass.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jonas/code/c++/game/src/TestClass.hpp">
 			<Option target="game"/>
 		</Unit>
 		<Unit filename="/home/jonas/code/c++/game/src/Transform.cpp">
