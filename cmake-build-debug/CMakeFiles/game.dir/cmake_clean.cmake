@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/MeshBuilder.cpp.o"
   "CMakeFiles/game.dir/src/ResourceLoader.cpp.o"
   "CMakeFiles/game.dir/src/Shader.cpp.o"
+  "CMakeFiles/game.dir/src/Skybox.cpp.o"
   "CMakeFiles/game.dir/src/TerrainGenerator.cpp.o"
   "CMakeFiles/game.dir/src/TestClass.cpp.o"
   "CMakeFiles/game.dir/src/Transform.cpp.o"

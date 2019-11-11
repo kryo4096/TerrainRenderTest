@@ -7,7 +7,7 @@
 #include <cassert>
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "stbi/stb_image.hpp"
+#include "stb/image.h"
 
 ResourceLoader::ResourceLoader(const std::string &resourcePath) : resourcePath(resourcePath) {}
 

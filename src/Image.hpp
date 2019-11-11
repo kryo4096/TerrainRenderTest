@@ -5,7 +5,6 @@
 #ifndef GAME_IMAGE_HPP
 #define GAME_IMAGE_HPP
 
-
 #include <vector>
 #include <cstdint>
 #include <glm/glm.hpp>

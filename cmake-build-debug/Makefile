@@ -48,10 +48,10 @@ RM = /home/jonas/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jonas/code/c++/game
+CMAKE_SOURCE_DIR = /home/jonas/code/c++/terrain_gen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jonas/code/c++/game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jonas/code/c++/terrain_gen/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/code/c++/game/cmake-build-debug/CMakeFiles /home/jonas/code/c++/game/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/code/c++/terrain_gen/cmake-build-debug/CMakeFiles /home/jonas/code/c++/terrain_gen/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/code/c++/game/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/code/c++/terrain_gen/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -393,6 +393,33 @@ src/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
+src/Skybox.o: src/Skybox.cpp.o
+
+.PHONY : src/Skybox.o
+
+# target to build an object file
+src/Skybox.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Skybox.cpp.o
+.PHONY : src/Skybox.cpp.o
+
+src/Skybox.i: src/Skybox.cpp.i
+
+.PHONY : src/Skybox.i
+
+# target to preprocess a source file
+src/Skybox.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Skybox.cpp.i
+.PHONY : src/Skybox.cpp.i
+
+src/Skybox.s: src/Skybox.cpp.s
+
+.PHONY : src/Skybox.s
+
+# target to generate assembly for a file
+src/Skybox.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Skybox.cpp.s
+.PHONY : src/Skybox.cpp.s
+
 src/TerrainGenerator.o: src/TerrainGenerator.cpp.o
 
 .PHONY : src/TerrainGenerator.o
@@ -567,6 +594,9 @@ help:
 	@echo "... src/Shader.o"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"
+	@echo "... src/Skybox.o"
+	@echo "... src/Skybox.i"
+	@echo "... src/Skybox.s"
 	@echo "... src/TerrainGenerator.o"
 	@echo "... src/TerrainGenerator.i"
 	@echo "... src/TerrainGenerator.s"

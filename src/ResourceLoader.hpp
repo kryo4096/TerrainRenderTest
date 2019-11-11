@@ -8,9 +8,6 @@
 #include <string>
 #include <map>
 #include "Image.hpp"
-
-
-
 #include "Shader.hpp"
 
 class ResourceLoader {

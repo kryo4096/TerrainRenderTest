@@ -55,10 +55,13 @@ CMakeFiles/game.dir/src/ResourceLoader.cpp.o: ../src/Image.hpp
 CMakeFiles/game.dir/src/ResourceLoader.cpp.o: ../src/ResourceLoader.cpp
 CMakeFiles/game.dir/src/ResourceLoader.cpp.o: ../src/ResourceLoader.hpp
 CMakeFiles/game.dir/src/ResourceLoader.cpp.o: ../src/Shader.hpp
-CMakeFiles/game.dir/src/ResourceLoader.cpp.o: ../src/stbi/stb_image.hpp
+CMakeFiles/game.dir/src/ResourceLoader.cpp.o: ../src/stb/image.h
 
 CMakeFiles/game.dir/src/Shader.cpp.o: ../src/Shader.cpp
 CMakeFiles/game.dir/src/Shader.cpp.o: ../src/Shader.hpp
+
+CMakeFiles/game.dir/src/Skybox.cpp.o: ../src/Skybox.cpp
+CMakeFiles/game.dir/src/Skybox.cpp.o: ../src/Skybox.hpp
 
 CMakeFiles/game.dir/src/TerrainGenerator.cpp.o: ../src/IChunkGenerator.hpp
 CMakeFiles/game.dir/src/TerrainGenerator.cpp.o: ../src/IHeightProvider.hpp
