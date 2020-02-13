@@ -309,8 +309,6 @@ public:
             glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 
 
-
-
             bloomShader.use();
             glBindVertexArray(screenQuadVAO);
             glDisable(GL_DEPTH_TEST);

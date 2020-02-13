@@ -1,0 +1,18 @@
+# ninja log v5
+6	52	1581633385434309063	CMakeFiles/game.dir/src/TestClass.cpp.o	9872b8c57e45302c
+0	80	1581633385460975730	CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o	900f749a2d36b1ef
+0	92	1581633385474309064	CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o	358dceaf6c0682c8
+80	381	1581633385760975732	CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o	f9acd40ebbeb17
+0	447	1581633385827642399	CMakeFiles/game.dir/src/Image.cpp.o	a4bd3f8db4603e28
+52	573	1581633385954309066	CMakeFiles/game.dir/src/Vertex.cpp.o	a7bda17f589491f
+1	577	1581633385957642400	CMakeFiles/game.dir/src/Mesh.cpp.o	74a6444d98a7a3f9
+1	845	1581633386224309068	CMakeFiles/game.dir/src/Shader.cpp.o	39b4d0ba5a731bb2
+5	853	1581633386234309067	CMakeFiles/game.dir/src/TerrainGenerator.cpp.o	cd1fc305b0d4a456
+0	876	1581633386257642402	CMakeFiles/game.dir/src/InputManager.cpp.o	b5365d38ae89e43b
+3	912	1581633386294309068	CMakeFiles/game.dir/src/Skybox.cpp.o	565f0e23b1fc9fbb
+1	1019	1581633386400975735	CMakeFiles/game.dir/src/MeshBuilder.cpp.o	6ceaaa1da6bf74f
+9	1233	1581633386614309070	CMakeFiles/game.dir/src/Transform.cpp.o	f3cd9f14a31b77a7
+0	1267	1581633386647642403	CMakeFiles/game.dir/src/ChunkManager.cpp.o	1fdd06b84d35dd60
+1	1287	1581633386667642403	CMakeFiles/game.dir/src/Main.cpp.o	875b3d6952d4a289
+1	4808	1581633390187642420	CMakeFiles/game.dir/src/ResourceLoader.cpp.o	f2c595e468878d89
+4808	4927	1581633390307642421	../bin/game	8c6b4af2f91b8345

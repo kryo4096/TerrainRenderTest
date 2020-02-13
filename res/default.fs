@@ -14,9 +14,9 @@ void main()
 {
     float diffuse = max(dot(gNormal, normalize(-lightDirection)), 0);
 
-    vec3 matCol = gCol;
+    vec3 matCol = vec3(1.0, 1.0, 1.0);
 
-    vec3 diffuseComp =  vec3(0.1, 0.1, 0.1) * diffuse ;
+    vec3 diffuseComp =  vec3(0.2, 1.0, 0.4) * diffuse ;
     vec3 ambientComp = vec3(0.0, 1.0, 0.0) * 0.01;
 
     FragColor = vec4(matCol * (diffuseComp + ambientComp), 1.0);
