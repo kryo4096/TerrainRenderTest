@@ -6,11 +6,12 @@
 #define GAME_ICHUNKGENERATOR_HPP
 
 #include "Mesh.hpp"
+#include "MeshBuilder.hpp"
 
 
 class IChunkGenerator {
 public:
-    virtual Mesh generateChunk(int chunkX, int chunkY, unsigned int lod) = 0;
+    virtual MeshBuilder generateChunk(int chunkX, int chunkY, unsigned int lod) = 0;
     virtual int getChunkSize() = 0;
 };
 

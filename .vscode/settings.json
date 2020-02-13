@@ -53,7 +53,13 @@
         "map": "cpp",
         "iterator": "cpp",
         "random": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "condition_variable": "cpp",
+        "list": "cpp",
+        "unordered_set": "cpp",
+        "future": "cpp",
+        "mutex": "cpp",
+        "variant": "cpp"
     },
     "C_Cpp.configurationWarnings": "Disabled"
 }

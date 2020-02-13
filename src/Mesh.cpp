@@ -33,6 +33,7 @@ Mesh::Mesh(vector<Vertex>& vertices, vector<int>& indices) {
 void Mesh::draw() const {
     glBindVertexArray(vao);
     glDrawElements(GL_TRIANGLES, size, GL_UNSIGNED_INT, nullptr);
+    glBindVertexArray(0);
 }
 
 Mesh::~Mesh() {

@@ -44,6 +44,19 @@ void Transform::translateLocal(glm::vec3 delta) {
     position += (matrix() * vec4(delta, 0)).xyz();
 }
 
+void Transform::translateLocalNormalizedInPlane(glm::vec3 delta, glm::vec3 normal) {
+    dirty = true;
+
+    delta = (matrix() * vec4(delta, 0)).xyz();
+    float len = glm::length(delta);
+    delta -= normal * glm::dot(delta, normal);
+    //delta *= len / length(delta);
+
+    if(glm::length(delta) > 0) {
+        position += delta / glm::length(delta) * len;
+    }
+}
+
 void Transform::rotate(glm::quat _rotation) {
     dirty = true;
 

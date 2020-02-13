@@ -6,6 +6,7 @@
 #include "Mesh.hpp"
 #include "IHeightProvider.hpp"
 #include "IChunkGenerator.hpp"
+#include "MeshBuilder.hpp"
 
 #include <memory>
 
@@ -16,7 +17,7 @@ class TerrainGenerator : public IChunkGenerator {
     float worldHeight;
 public:
     TerrainGenerator(IHeightProvider& heightProvider, int chunkSize, glm::vec3 scale);
-    Mesh generateChunk(int x, int y, unsigned int resolution) override;
+    MeshBuilder generateChunk(int x, int y, unsigned int resolution) override;
 
     int getChunkSize() override;
 

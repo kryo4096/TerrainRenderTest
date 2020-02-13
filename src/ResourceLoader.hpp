@@ -9,6 +9,7 @@
 #include <map>
 #include "Image.hpp"
 #include "Shader.hpp"
+#include "Skybox.hpp"
 
 class ResourceLoader {
     std::string resourcePath;
@@ -25,6 +26,8 @@ public:
     loadShader(const std::string &vertexPath, const std::string &fragmentPath, const std::string &geometryPath) const;
 
     Shader loadShader(const std::string &vertexPath, const std::string &fragmentPath) const;
+
+    Skybox loadSkybox(const std::string &skyboxName) const;
 };
 
 

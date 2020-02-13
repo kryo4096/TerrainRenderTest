@@ -12,6 +12,7 @@ find_package(glm REQUIRED)
 include_directories(${CMAKE_BINARY_DIR}/glfw/include)
 include_directories("${PROJECT_SOURCE_DIR}/src")
 
+SET(CMAKE_CXX_FLAGS "-fopenmp -O3")
 SET(LIBRARIES GLEW glfw ${GLFW_LIBRARIES} ${OPENGL_LIBRARY} ${CMAKE_DL_LIBS})
 
 file(GLOB_RECURSE SOURCE_FILES

@@ -1,3 +1,3 @@
-/home/jonas/code/c++/terrain_gen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jonas/code/c++/terrain_gen/cmake-build-debug/CMakeFiles/game.dir
-/home/jonas/code/c++/terrain_gen/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jonas/Code/terrain_gen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jonas/Code/terrain_gen/cmake-build-debug/CMakeFiles/game.dir
+/home/jonas/Code/terrain_gen/cmake-build-debug/CMakeFiles/edit_cache.dir

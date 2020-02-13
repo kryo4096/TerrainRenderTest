@@ -11,7 +11,7 @@ LogisticHeightProvider::LogisticHeightProvider(SimplexNoise noise, float steepne
 
 float LogisticHeightProvider::getHeightAt(float x, float y) {
     auto value = noise.fractal(8, x, y) * 2 - 1;
-    return 1.0f / (1.0f + expf(-steepness*(value * amplification - offset)));
+    return 1.0f / (1.0f + expf(-steepness*(value - offset))) * amplification;
 }
 
 

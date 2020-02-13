@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../bin/game"
+  "../bin/game.pdb"
   "CMakeFiles/game.dir/src/ChunkManager.cpp.o"
   "CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o"
   "CMakeFiles/game.dir/src/Image.cpp.o"
@@ -15,8 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/Transform.cpp.o"
   "CMakeFiles/game.dir/src/Vertex.cpp.o"
   "CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o"
-  "../bin/game.pdb"
-  "../bin/game"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -13,13 +13,14 @@
 #include "IChunkGenerator.hpp"
 
 class ChunkManager {
-    std::vector<std::vector<std::unique_ptr<Mesh>>> chunks;
-    glm::ivec2 currentCenter = glm::ivec2(0,0);
+    std::vector<std::vector<Mesh*>> chunks;
+    glm::ivec2 currentCenter = glm::ivec2(-142413,-124412);
     IChunkGenerator& chunkGen;
     int genRadius;
+    std::vector<glm::ivec2> tasks;
 public:
     ChunkManager(IChunkGenerator &chunkGen, int radius);
-    void update(const glm::ivec2 &newCenter);
+    void update(glm::ivec2 newCenter);
     void draw();
 };
 

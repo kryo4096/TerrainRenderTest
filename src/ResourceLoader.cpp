@@ -18,9 +18,7 @@ Image ResourceLoader::loadImage(const std::string& path) const {
 
     auto data = stbi_load(concatPath.c_str(), &w, &h, &n, 3);
 
-    assert(n == 3);
-
-    auto image = Image(data, w, h);
+    Image image(data, w, h);
 
     stbi_image_free(data);
 
@@ -70,5 +68,25 @@ std::string ResourceLoader::loadTextFile(const std::string &path) const {
 
 std::string ResourceLoader::prependResourcePath(const std::string &path) const {
     return resourcePath + "/" + path;
+}
+
+const std::vector<std::string> faces
+{
+    "right.png",
+    "left.png",
+    "top.png",
+    "bottom.png",
+    "front.png",
+    "back.png"
+};
+
+Skybox ResourceLoader::loadSkybox(const std::string &skyboxName) const {
+    std::vector<Image> imgs{};
+    
+    for(auto& face : faces) {
+        imgs.push_back(loadImage(skyboxName + "_" + face));
+    }
+
+    return Skybox(imgs);
 }
 

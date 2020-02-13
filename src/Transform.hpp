@@ -5,8 +5,6 @@
 
 #define GLM_SWIZZLE 
 #include <glm/glm.hpp>
-
-
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
 #include <glm/gtx/quaternion.hpp>
@@ -25,6 +23,7 @@ public:
 
     void translate(glm::vec3 delta);
     void translateLocal(glm::vec3 delta);
+    void translateLocalNormalizedInPlane(glm::vec3 delta, glm::vec3 normal);
     void rotate(glm::quat rotation);
 
     glm::vec3 getPosition();

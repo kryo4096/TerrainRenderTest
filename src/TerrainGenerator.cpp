@@ -2,6 +2,7 @@
 #include "MeshBuilder.hpp"
 #include <vector>
 #include <cmath>
+#include "Color.hpp"
 
 TerrainGenerator::TerrainGenerator(IHeightProvider &heightProvider, int chunkSize, glm::vec3 scale) : heightProvider(
         heightProvider), chunkSize(chunkSize), scale(scale) {}
@@ -10,12 +11,8 @@ glm::vec3 scaleV(glm::vec3 a, glm::vec3 b) {
     return glm::vec3(a.x * b.x, a.y * b.y, a.z * b.z);
 }
 
-Mesh TerrainGenerator::generateChunk(int chunkX, int chunkZ, unsigned int lod)  {
+MeshBuilder TerrainGenerator::generateChunk(int chunkX, int chunkZ, unsigned int lod)  {
     auto builder = MeshBuilder();
-
-    auto grassColor = glm::vec3(0.7, 1.0, 0.1);
-    auto stoneColor = glm::vec3(0.1, 0.1, 0.1);
-    auto snowColor = glm::vec3(1.0, 1.0, 1.0);
 
     auto resolution = static_cast<int>(1u << lod);
 
@@ -36,7 +33,7 @@ Mesh TerrainGenerator::generateChunk(int chunkX, int chunkZ, unsigned int lod)  
 
             auto normal = glm::normalize(glm::cross(upperPoint - currentPoint, rightPoint - currentPoint));
 
-            builder.addVertex(Vertex(currentPoint, currentPoint.y > 80 ? snowColor : normal.y < 0.9f ? stoneColor : grassColor, normal, glm::vec2(vx % 2, vz % 2)));
+            builder.addVertex(Vertex(currentPoint, WHITE, normal, glm::vec2((vx % 2) * 2 - 1, (vz % 2) * 2 - 1)));
             worldHeight = fmax(worldHeight, currentPoint.y);
             int index = vx * (scaledChunkSize + 1) + vz;
             if (vx < scaledChunkSize && vz < scaledChunkSize) {
@@ -47,7 +44,7 @@ Mesh TerrainGenerator::generateChunk(int chunkX, int chunkZ, unsigned int lod)  
         }
     }
 
-    return builder.build();
+    return builder;
 }
 
 int TerrainGenerator::getChunkSize() {

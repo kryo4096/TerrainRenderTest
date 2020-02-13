@@ -6,8 +6,6 @@
 
 using namespace std;
 
-
-
 GLuint createProgram(vector<GLuint> shaders) {
     auto program = glCreateProgram();
 

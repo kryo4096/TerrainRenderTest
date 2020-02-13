@@ -9,13 +9,15 @@
 #include <cstdint>
 #include <glm/glm.hpp>
 
+using color = glm::vec3;
+
 class Image {
     std::vector<uint8_t> imageData;
     unsigned int width, height;
 public:
     Image(const uint8_t *data, unsigned int width, unsigned int height);
 
-    glm::vec3 sample(unsigned int x, unsigned int y) const;
+    color sample(unsigned int x, unsigned int y) const;
 
     const std::vector<uint8_t> &getImageData() const;
 

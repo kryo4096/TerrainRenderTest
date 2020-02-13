@@ -20,8 +20,7 @@ Mesh MeshBuilder::build() {
     if(indices.size() % 3 != 0) {
         std::cerr << "Warning: Index array length (" << indices.size() << ") isn't divisible by 3." << std::endl;
     }
-
-    Mesh mesh(vertices, indices);
-    return mesh;
+    
+    return Mesh(vertices, indices);
 }
 
