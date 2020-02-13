@@ -1,3 +1,0 @@
-/home/jonas/Code/TerrainRenderTest/build/CMakeFiles/rebuild_cache.dir
-/home/jonas/Code/TerrainRenderTest/build/CMakeFiles/game.dir
-/home/jonas/Code/TerrainRenderTest/build/CMakeFiles/edit_cache.dir
