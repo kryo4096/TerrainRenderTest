@@ -44,4 +44,5 @@ _deps
 *.out
 *.app
 
-.vscode
+.vscode/
+bin/
