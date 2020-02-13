@@ -138,8 +138,6 @@ public:
             glDebugMessageControl(GL_DONT_CARE, GL_DONT_CARE, GL_DONT_CARE, 0, nullptr, GL_TRUE); 
         }
 
-
-
         this->window = w;
     }
 
@@ -182,7 +180,6 @@ public:
             -1.0, 1.0,
             1.0, 1.0
         };
-
 
         glGenVertexArrays(1, &screenQuadVAO);
         glGenBuffers(1, &screenQuadVBO);

@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jonas/Code/terrain_gen/build && /usr/bin/cmake -S/home/jonas/Code/terrain_gen -B/home/jonas/Code/terrain_gen/build
+  COMMAND = cd /home/jonas/Code/TerrainRenderTest/build && /usr/bin/cmake -S/home/jonas/Code/TerrainRenderTest -B/home/jonas/Code/TerrainRenderTest/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -56,6 +56,8 @@ build CMakeFiles/game.dir/src/ChunkManager.cpp.o: CXX_COMPILER__game ../src/Chun
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o: CXX_COMPILER__game ../src/ExponentialHeightProvider.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o.d
@@ -63,6 +65,8 @@ build CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o: CXX_COMPILER__gam
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/Image.cpp.o: CXX_COMPILER__game ../src/Image.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/Image.cpp.o.d
@@ -70,6 +74,8 @@ build CMakeFiles/game.dir/src/Image.cpp.o: CXX_COMPILER__game ../src/Image.cpp |
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/InputManager.cpp.o: CXX_COMPILER__game ../src/InputManager.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/InputManager.cpp.o.d
@@ -77,6 +83,8 @@ build CMakeFiles/game.dir/src/InputManager.cpp.o: CXX_COMPILER__game ../src/Inpu
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o: CXX_COMPILER__game ../src/LogisticHeightProvider.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o.d
@@ -84,6 +92,8 @@ build CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o: CXX_COMPILER__game .
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/Main.cpp.o: CXX_COMPILER__game ../src/Main.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/Main.cpp.o.d
@@ -91,6 +101,8 @@ build CMakeFiles/game.dir/src/Main.cpp.o: CXX_COMPILER__game ../src/Main.cpp || 
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/Mesh.cpp.o: CXX_COMPILER__game ../src/Mesh.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/Mesh.cpp.o.d
@@ -98,6 +110,8 @@ build CMakeFiles/game.dir/src/Mesh.cpp.o: CXX_COMPILER__game ../src/Mesh.cpp || 
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/MeshBuilder.cpp.o: CXX_COMPILER__game ../src/MeshBuilder.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/MeshBuilder.cpp.o.d
@@ -105,6 +119,8 @@ build CMakeFiles/game.dir/src/MeshBuilder.cpp.o: CXX_COMPILER__game ../src/MeshB
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/ResourceLoader.cpp.o: CXX_COMPILER__game ../src/ResourceLoader.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/ResourceLoader.cpp.o.d
@@ -112,6 +128,8 @@ build CMakeFiles/game.dir/src/ResourceLoader.cpp.o: CXX_COMPILER__game ../src/Re
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/Shader.cpp.o: CXX_COMPILER__game ../src/Shader.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/Shader.cpp.o.d
@@ -119,6 +137,8 @@ build CMakeFiles/game.dir/src/Shader.cpp.o: CXX_COMPILER__game ../src/Shader.cpp
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/Skybox.cpp.o: CXX_COMPILER__game ../src/Skybox.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/Skybox.cpp.o.d
@@ -126,6 +146,8 @@ build CMakeFiles/game.dir/src/Skybox.cpp.o: CXX_COMPILER__game ../src/Skybox.cpp
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/TerrainGenerator.cpp.o: CXX_COMPILER__game ../src/TerrainGenerator.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/TerrainGenerator.cpp.o.d
@@ -133,6 +155,8 @@ build CMakeFiles/game.dir/src/TerrainGenerator.cpp.o: CXX_COMPILER__game ../src/
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/TestClass.cpp.o: CXX_COMPILER__game ../src/TestClass.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/TestClass.cpp.o.d
@@ -140,6 +164,8 @@ build CMakeFiles/game.dir/src/TestClass.cpp.o: CXX_COMPILER__game ../src/TestCla
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/Transform.cpp.o: CXX_COMPILER__game ../src/Transform.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/Transform.cpp.o.d
@@ -147,6 +173,8 @@ build CMakeFiles/game.dir/src/Transform.cpp.o: CXX_COMPILER__game ../src/Transfo
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/Vertex.cpp.o: CXX_COMPILER__game ../src/Vertex.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/Vertex.cpp.o.d
@@ -154,6 +182,8 @@ build CMakeFiles/game.dir/src/Vertex.cpp.o: CXX_COMPILER__game ../src/Vertex.cpp
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 build CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o: CXX_COMPILER__game ../src/simplex/SimplexNoise.cpp || cmake_object_order_depends_target_game
   DEP_FILE = CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o.d
@@ -161,6 +191,8 @@ build CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o: CXX_COMPILER__game ../
   INCLUDES = -I../bin/glfw/include -I../src
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src/simplex
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
+  TARGET_PDB = ../bin/game.pdb
 
 
 # =============================================================================
@@ -177,15 +209,16 @@ build ../bin/game: CXX_EXECUTABLE_LINKER__game CMakeFiles/game.dir/src/ChunkMana
   OBJECT_DIR = CMakeFiles/game.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
   TARGET_FILE = ../bin/game
-  TARGET_PDB = game.dbg
+  TARGET_PDB = ../bin/game.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jonas/Code/terrain_gen/build && /usr/bin/cmake-gui -S/home/jonas/Code/terrain_gen -B/home/jonas/Code/terrain_gen/build
+  COMMAND = cd /home/jonas/Code/TerrainRenderTest/build && /usr/bin/cmake-gui -S/home/jonas/Code/TerrainRenderTest -B/home/jonas/Code/TerrainRenderTest/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -203,7 +236,7 @@ build game: phony ../bin/game
 # =============================================================================
 
 #############################################
-# Folder: /home/jonas/Code/terrain_gen/build
+# Folder: /home/jonas/Code/TerrainRenderTest/build
 
 build all: phony ../bin/game
 
@@ -224,14 +257,14 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /usr/lib64/cmake/glfw3/glfw3Config.cmake /usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake /usr/lib64/cmake/glfw3/glfw3Targets.cmake /usr/lib64/cmake/glm/glmConfig.cmake /usr/lib64/cmake/glm/glmConfigVersion.cmake /usr/lib64/cmake/glm/glmTargets.cmake /usr/share/cmake-3.16/Modules/CMakeCInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.16/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU.cmake /usr/share/cmake-3.16/Modules/FindGLEW.cmake /usr/share/cmake-3.16/Modules/FindOpenGL.cmake /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.16/Modules/FindPackageMessage.cmake /usr/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.16/Modules/Platform/Linux.cmake /usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.16/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.16.2/CMakeCCompiler.cmake CMakeFiles/3.16.2/CMakeCXXCompiler.cmake CMakeFiles/3.16.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /usr/lib64/cmake/glfw3/glfw3Config.cmake /usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake /usr/lib64/cmake/glfw3/glfw3Targets.cmake /usr/lib64/cmake/glm/glmConfig.cmake /usr/lib64/cmake/glm/glmConfigVersion.cmake /usr/lib64/cmake/glm/glmTargets.cmake /usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.16/Modules/CMakeCInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.16/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.16/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.16/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.16/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.16/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.16/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.16/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang.cmake /usr/share/cmake-3.16/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU.cmake /usr/share/cmake-3.16/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake-3.16/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.16/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/FindGLEW.cmake /usr/share/cmake-3.16/Modules/FindOpenGL.cmake /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.16/Modules/FindPackageMessage.cmake /usr/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.16/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.16/Modules/Platform/Linux.cmake /usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.16/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.16.2/CMakeCCompiler.cmake CMakeFiles/3.16.2/CMakeCXXCompiler.cmake CMakeFiles/3.16.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /usr/lib64/cmake/glfw3/glfw3Config.cmake /usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake /usr/lib64/cmake/glfw3/glfw3Targets.cmake /usr/lib64/cmake/glm/glmConfig.cmake /usr/lib64/cmake/glm/glmConfigVersion.cmake /usr/lib64/cmake/glm/glmTargets.cmake /usr/share/cmake-3.16/Modules/CMakeCInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.16/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU.cmake /usr/share/cmake-3.16/Modules/FindGLEW.cmake /usr/share/cmake-3.16/Modules/FindOpenGL.cmake /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.16/Modules/FindPackageMessage.cmake /usr/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.16/Modules/Platform/Linux.cmake /usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.16/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.16.2/CMakeCCompiler.cmake CMakeFiles/3.16.2/CMakeCXXCompiler.cmake CMakeFiles/3.16.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /usr/lib64/cmake/glfw3/glfw3Config.cmake /usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake /usr/lib64/cmake/glfw3/glfw3Targets.cmake /usr/lib64/cmake/glm/glmConfig.cmake /usr/lib64/cmake/glm/glmConfigVersion.cmake /usr/lib64/cmake/glm/glmTargets.cmake /usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.16/Modules/CMakeCInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.16/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.16/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.16/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.16/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.16/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.16/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.16/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.16/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.16/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.16/Modules/Compiler/Clang.cmake /usr/share/cmake-3.16/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.16/Modules/Compiler/GNU.cmake /usr/share/cmake-3.16/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake-3.16/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.16/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.16/Modules/FindGLEW.cmake /usr/share/cmake-3.16/Modules/FindOpenGL.cmake /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.16/Modules/FindPackageMessage.cmake /usr/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.16/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.16/Modules/Platform/Linux.cmake /usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.16/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.16.2/CMakeCCompiler.cmake CMakeFiles/3.16.2/CMakeCXXCompiler.cmake CMakeFiles/3.16.2/CMakeSystem.cmake: phony
 
 
 #############################################

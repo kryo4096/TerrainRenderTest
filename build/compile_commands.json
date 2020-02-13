@@ -1,97 +1,97 @@
 [
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/ChunkManager.cpp.o -c /home/jonas/Code/terrain_gen/src/ChunkManager.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/ChunkManager.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/ChunkManager.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/ChunkManager.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/ChunkManager.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o -c /home/jonas/Code/terrain_gen/src/ExponentialHeightProvider.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/ExponentialHeightProvider.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/ExponentialHeightProvider.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/ExponentialHeightProvider.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/ExponentialHeightProvider.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Image.cpp.o -c /home/jonas/Code/terrain_gen/src/Image.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/Image.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Image.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/Image.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/Image.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/InputManager.cpp.o -c /home/jonas/Code/terrain_gen/src/InputManager.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/InputManager.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/InputManager.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/InputManager.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/InputManager.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o -c /home/jonas/Code/terrain_gen/src/LogisticHeightProvider.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/LogisticHeightProvider.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/LogisticHeightProvider.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/LogisticHeightProvider.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/LogisticHeightProvider.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Main.cpp.o -c /home/jonas/Code/terrain_gen/src/Main.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/Main.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Main.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/Main.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/Main.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Mesh.cpp.o -c /home/jonas/Code/terrain_gen/src/Mesh.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/Mesh.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Mesh.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/Mesh.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/Mesh.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/MeshBuilder.cpp.o -c /home/jonas/Code/terrain_gen/src/MeshBuilder.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/MeshBuilder.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/MeshBuilder.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/MeshBuilder.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/MeshBuilder.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/ResourceLoader.cpp.o -c /home/jonas/Code/terrain_gen/src/ResourceLoader.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/ResourceLoader.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/ResourceLoader.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/ResourceLoader.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/ResourceLoader.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Shader.cpp.o -c /home/jonas/Code/terrain_gen/src/Shader.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/Shader.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Shader.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/Shader.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/Shader.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Skybox.cpp.o -c /home/jonas/Code/terrain_gen/src/Skybox.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/Skybox.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Skybox.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/Skybox.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/Skybox.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/TerrainGenerator.cpp.o -c /home/jonas/Code/terrain_gen/src/TerrainGenerator.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/TerrainGenerator.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/TerrainGenerator.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/TerrainGenerator.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/TerrainGenerator.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/TestClass.cpp.o -c /home/jonas/Code/terrain_gen/src/TestClass.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/TestClass.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/TestClass.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/TestClass.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/TestClass.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Transform.cpp.o -c /home/jonas/Code/terrain_gen/src/Transform.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/Transform.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Transform.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/Transform.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/Transform.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Vertex.cpp.o -c /home/jonas/Code/terrain_gen/src/Vertex.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/Vertex.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/Vertex.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/Vertex.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/Vertex.cpp"
 },
 
 {
-  "directory": "/home/jonas/Code/terrain_gen/build",
-  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o -c /home/jonas/Code/terrain_gen/src/simplex/SimplexNoise.cpp",
-  "file": "/home/jonas/Code/terrain_gen/src/simplex/SimplexNoise.cpp"
+  "directory": "/home/jonas/Code/TerrainRenderTest/build",
+  "command": "/usr/bin/c++   -I../bin/glfw/include -I../src  -fopenmp -O3 -g   -o CMakeFiles/game.dir/src/simplex/SimplexNoise.cpp.o -c /home/jonas/Code/TerrainRenderTest/src/simplex/SimplexNoise.cpp",
+  "file": "/home/jonas/Code/TerrainRenderTest/src/simplex/SimplexNoise.cpp"
 }
 ]

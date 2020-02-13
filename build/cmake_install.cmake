@@ -1,4 +1,4 @@
-# Install script for directory: /home/jonas/Code/terrain_gen
+# Install script for directory: /home/jonas/Code/TerrainRenderTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jonas/Code/terrain_gen/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jonas/Code/TerrainRenderTest/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
